@@ -8,6 +8,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,13 +19,15 @@
             display: flex;
             width: 16%;
         }
-        button {
-            width: 25%;
+
+        button{
+            width: 50px;
             height: 50px;
             background: white;
             border: none;
             border-radius: 50%;
         }
+
         .button {
             background-color: #04AA6D;
         }
@@ -38,16 +41,22 @@
         }
     </style>
 </head>
+
 <body>
     <div class="df">
-        <!-- <form></form> -->
-        <button id="newbtn1" class="db" onclick="btn1()">o</button>
-        <button id="newbtn1r" class="dn" onclick="btn1r()">o</button>
+        <span>
+            <button id="newbtn1" class="db" onclick="btn1()">o</button>
+            <button id="newbtn1r" class="dn" onclick="btn1r()"></button>
+            <p>One</p>
+        </span>
 
         <p>----------------------</p>
 
-        <button id="newbtn2" class="db" onclick="btn2()">o</button>
-        <button id="newbtn2r" class="dn" onclick="btn2r()">o</button>
+        <span>
+            <button id="newbtn2" class="db" onclick="btn2()">o</button>
+            <button id="newbtn2r" class="dn" onclick="btn2r()"></button>
+            <p>Two</p>
+        </span>
 
     </div>
     <script>
